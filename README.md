@@ -27,40 +27,40 @@
  
 ### 四、實驗結果(所有資料集都須有實驗結果和截圖)
 >1. 基本題—perceptron1
- ![](https://i.imgur.com/xc7O9fM.png)
+>![](https://i.imgur.com/xc7O9fM.png)
  
 >2. 基本題—perceptron2
- ![](https://i.imgur.com/rC3JS8U.png)
+>![](https://i.imgur.com/rC3JS8U.png)
  
 >3. 基本題—2Ccircle1
- ![](https://i.imgur.com/VjBG5kU.png)
+>![](https://i.imgur.com/VjBG5kU.png)
  
 >4. 基本題—2Circle1
- ![](https://i.imgur.com/1ngZA70.png)
+>![](https://i.imgur.com/1ngZA70.png)
  
 >5. 基本題—2 Circle2
- ![](https://i.imgur.com/V2f7yQ0.png)
+>![](https://i.imgur.com/V2f7yQ0.png)
  
 >6. 基本題—2CloseS
- ![](https://i.imgur.com/Cy6SiN3.png)
+>![](https://i.imgur.com/Cy6SiN3.png)
  
 >7. 基本題—2CloseS2
- ![](https://i.imgur.com/9rhZdS0.png)
+>![](https://i.imgur.com/9rhZdS0.png)
  
 >8. 基本題—2CloseS3
- ![](https://i.imgur.com/yfsbbsH.png)
+>![](https://i.imgur.com/yfsbbsH.png)
  
 >9. 基本題—2cring
- ![](https://i.imgur.com/QceXHVT.png)
+>![](https://i.imgur.com/QceXHVT.png)
  
 >10. 基本題—2CS
- ![](https://i.imgur.com/h1rxOuq.png)
+>![](https://i.imgur.com/h1rxOuq.png)
  
 >11. 基本題—2Hcircle1
- ![](https://i.imgur.com/QQmyAYd.png)
+>![](https://i.imgur.com/QQmyAYd.png)
  
 >12. 基本題—2ring
- ![](https://i.imgur.com/h0loNZd.png)
+>![](https://i.imgur.com/h0loNZd.png)
  
 ### 五、實驗結果分析及討論
 >學習率越小鍵結值每次的調整量越少，但只要訓練次數夠就能得到較佳的鍵結值。訓練次數少的話，初始隨機的鍵結值就會高度影響正確率。
