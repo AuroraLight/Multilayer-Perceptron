@@ -20,7 +20,8 @@
 >用python 3.5版開發，GUI使用python內建的Tkinter，結果圖使用需額外下載的matplotlib，程式分為四個檔案
 >* main.py是程式進入點
 >* MultilayerPerceptron.py為所有多層感知機的處理函式，包含讀入檔案、資料處理、計算辨識率、計算RMSE、前饋階段以及倒傳遞調整鍵結值
->* Neuron.py為神經元class，作為模擬神經元裡頭有儲存隨機鍵結值、累加函式、sigmoidal函式，>* GUI.py定義使用者介面，並顯示結果。
+>* Neuron.py為神經元class，作為模擬神經元裡頭有儲存隨機鍵結值、累加函式、sigmoidal函式
+>* GUI.py定義使用者介面，並顯示結果
 
 ###  三、重點程式碼說明
 >在GUI按下run後會執行training_perceptron函式，首先會創建出三個神經元object，前兩個為隱藏層的神經元，最後一個神經元當作輸出層(全連接層)神經元，在create出神經元object時會random各自的鍵結值，在使用者設定的迭代次數內訓練鍵結值，每次迭代都會打亂輸入的訓練資料，採用pattern learning模式調整鍵結值，當所有訓練資料都調整或不調整權重後，計算該次的鍵結值所得的辨識率，辨識率高就存下來(即口袋演算法)，若是辨識率達到100%則會直接跳出for loop。
