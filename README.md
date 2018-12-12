@@ -26,40 +26,40 @@
 >在GUI按下run後會執行training_perceptron函式，首先會創建出三個神經元object，前兩個為隱藏層的神經元，最後一個神經元當作輸出層(全連接層)神經元，在create出神經元object時會random各自的鍵結值，在使用者設定的迭代次數內訓練鍵結值，每次迭代都會打亂輸入的訓練資料，採用pattern learning模式調整鍵結值，當所有訓練資料都調整或不調整權重後，計算該次的鍵結值所得的辨識率，辨識率高就存下來(即口袋演算法)，若是辨識率達到100%則會直接跳出for loop。
  
 ### 四、實驗結果(所有資料集都須有實驗結果和截圖)
->1. 基本題—perceptron1
+>1. 基本題—perceptron1  
   ![](https://i.imgur.com/xc7O9fM.png)
  
->2. 基本題—perceptron2
+>2. 基本題—perceptron2  
   ![](https://i.imgur.com/rC3JS8U.png)
  
->3. 基本題—2Ccircle1
+>3. 基本題—2Ccircle1  
   ![](https://i.imgur.com/VjBG5kU.png)
  
->4. 基本題—2Circle1
+>4. 基本題—2Circle1  
   ![](https://i.imgur.com/1ngZA70.png)
  
->5. 基本題—2 Circle2 
+>5. 基本題—2 Circle2  
   ![](https://i.imgur.com/V2f7yQ0.png)
  
->6. 基本題—2CloseS
+>6. 基本題—2CloseS  
   ![](https://i.imgur.com/Cy6SiN3.png)
  
->7. 基本題—2CloseS2
+>7. 基本題—2CloseS2  
  ![](https://i.imgur.com/9rhZdS0.png)
  
->8. 基本題—2CloseS3
+>8. 基本題—2CloseS3  
   ![](https://i.imgur.com/yfsbbsH.png)
  
->9. 基本題—2cring
+>9. 基本題—2cring  
   ![](https://i.imgur.com/QceXHVT.png)
  
->10. 基本題—2CS
+>10. 基本題—2CS  
   ![](https://i.imgur.com/h1rxOuq.png)
  
->11. 基本題—2Hcircle1
+>11. 基本題—2Hcircle1  
   ![](https://i.imgur.com/QQmyAYd.png)
  
->12. 基本題—2ring
+>12. 基本題—2ring  
   ![](https://i.imgur.com/h0loNZd.png)
  
 ### 五、實驗結果分析及討論
